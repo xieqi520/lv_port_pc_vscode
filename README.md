@@ -74,10 +74,9 @@ sudo make install
 
 <!-- mac终端命令编译运行 -->
 ``` bash
-
+# mac终端命令编译运行
 https://blog.csdn.net/weixin_39510813/article/details/139271684
-
-
+# mac 安装2个库文件 
 brew install sdl2
 brew install cmake
 
