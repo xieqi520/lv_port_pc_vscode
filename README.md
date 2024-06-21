@@ -45,6 +45,9 @@ cmake ..
 make -j
 ```
 
+
+
+
 ## Optional library
 
 There are also FreeType and FFmpeg support. You can install these according to the followings:
@@ -67,4 +70,26 @@ git checkout release/6.0
 ./configure --disable-all --disable-autodetect --disable-podpages --disable-asm --enable-avcodec --enable-avformat --enable-decoders --enable-encoders --enable-demuxers --enable-parsers --enable-protocol='file' --enable-swscale --enable-zlib
 make
 sudo make install
+```
+
+<!-- mac终端命令编译运行 -->
+``` bash
+
+https://blog.csdn.net/weixin_39510813/article/details/139271684
+
+
+brew install sdl2
+brew install cmake
+
+//可能需要 root 权限运行相关命令
+git clone https://github.com/lvgl/lv_port_pc_vscode.git
+rmdir lvgl
+git clone https://github.com/lvgl/lvgl.git
+git status
+git checkout 8691574
+mkdir build
+cd build
+cmake ..
+make
+../bin/main
 ```
