@@ -72,6 +72,7 @@ make
 sudo make install
 ```
 
+### MAC
 <!-- mac终端命令编译运行 -->
 ``` bash
 # mac终端命令编译运行
