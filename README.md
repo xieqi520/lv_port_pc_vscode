@@ -14,7 +14,7 @@ The project can use **SDL** but it can be easily relaced by any other built-in L
 Clone the PC project and the related sub modules:
 
 ```bash
-git clone --recursive https://github.com/lvgl/lv_port_pc_vscode
+git clone --recursive [https://github.com/lvgl/lv_port_pc_vscode] (https://github.com/xieqi520/lv_port_pc_vscode.git)
 ```
 
 ### Install SDL and build tools
