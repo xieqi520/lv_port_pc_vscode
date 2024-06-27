@@ -81,6 +81,8 @@ https://blog.csdn.net/weixin_39510813/article/details/139271684
 brew install sdl2
 brew install cmake
 
+git clone --recursive https://github.com/lvgl/lv_port_pc_vscode
+
 //可能需要 root 权限运行相关命令
 git clone https://github.com/lvgl/lv_port_pc_vscode.git
 rmdir lvgl
